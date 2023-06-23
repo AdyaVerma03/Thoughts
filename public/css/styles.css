@@ -1,5 +1,77 @@
 
 body {
+  background-color: #f6f6f2;
+  margin: 0;
+  color: #388087;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #f6f6f2;
+  background-color: #6fb3b8;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+}
+.jumbotron {
+  background-color: #f6f6f2;
+}
+.btn{
+  background-color: #388087;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #285d61;
+}
+
+.secrets-box{
+  width: 1150px;
+  height: 300px;
+  overflow: auto;
+}
+
+.column {
+  float: left;
+  padding: 8px;
+}
+
+.col-icon {
+  width: 7%;
+}
+
+.col-text {
+  width: 90%;
+}
+.col-text p {
+  border-radius: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Colors: 
+#388087
+#6fb3b8
+#badfe7
+#c2edce
+#f6f6f2 */
+
+
+
+
+/* 
+body {
   background-color: #E8ECEF;
 }
 
@@ -13,4 +85,4 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
-}
+} */
